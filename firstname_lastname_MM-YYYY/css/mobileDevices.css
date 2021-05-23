@@ -1,0 +1,51 @@
+@media screen and (max-width: 1208px){
+    .item + .item{
+        margin-left: 0px;
+    }
+    #bottomBlock{
+        width:600px;
+    }
+    #thirdItem{
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 654px){
+    #firstItem, #secondItem{
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    #bottomBlock{
+        width: 300px;
+        padding-bottom: 15%;
+    }
+}
+@media screen and (max-width: 520px){
+    .inputField, #logo, #bottomBlock{
+        width: 300px;
+    }
+    #logo{
+        height: 55px;
+    }
+    .header, #middleBlock{
+        width: auto;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .inputField, #logo, #bottomBlock{
+        width: 275px;
+    }
+    #logo{
+        height: 50px;
+    }
+    #topBlock, #bottomBlock{
+        text-align: center;
+    }
+}

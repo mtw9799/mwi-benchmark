@@ -1,1 +1,104 @@
-<h1>Code Test</h1>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1208px)" href="css/mobileDevices.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/JavaScript" src="js/calculation.js"></script>
+    <script type="text/JavaScript" src="js/dataValidation.js"></script>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif">
+
+<div class="header">
+    <img id="logo" src="img/mwi-logo-horizontal.png" alt="Midwestern Interactive Logo">
+</div>
+
+<div id="topBlock">
+    
+    <h1 id="headingOne" class="sectionHeading"><u>HEADING ONE</u></h1>
+
+    <div class="item" id="firstItem">
+        <div class="placeholder"></div>
+        <h2 class="blockHeadings">Heading 2</h2>
+        <div class="testText">
+            <p>This is a paragraph text that is meant to flex and wrap to a new line 
+            base on the number of characters in this container. Please make sure this is 
+            looking pretty based on the amount of characters this is taking up.</p>
+        </div>
+        <div class="buttonContainer">
+            <button type="button" class="pageButton">Read More
+            </button>
+        </div>
+    </div>
+    <div class="item" id="secondItem">
+        <div class="placeholder"></div>
+        <h2 class="blockHeadings">Heading 2</h2>
+        <div class="testText">
+            <p>This is a paragraph text that is meant to flex and wrap to a new line 
+            base on the number of characters in this container. Please make sure this is 
+            looking pretty based on the amount of characters this is taking up.</p>
+        </div>
+        <div class="buttonContainer">
+            <button type="button" class="pageButton">Read More
+            </button>
+        </div>
+    </div>
+    <div class="item" id="thirdItem">
+        <div class="placeholder"></div>
+        <h2 class="blockHeadings">Heading 2</h2>
+        <div class="testText">
+            <p>This is a paragraph text that is meant to flex and wrap to a new line 
+            base on the number of characters in this container. Please make sure this is 
+            looking pretty based on the amount of characters this is taking up.</p>
+        </div>
+        <div class="buttonContainer">
+            <button type="button" class="pageButton">Read More
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="middleBlock">
+    <div class="middleBlockContent">
+    <h2 id="middleHeader">CONTACT</h2>
+        <div> 
+            <div id="emailContainer" class="inputContainer"> 
+                <label for="email">Email:</label>
+                <label for="email" id="emailError" class="validationMessage"><i>Must use a valid email.</i></label>
+                <input type="text" id="email" class="inputField">
+            </div>
+            <div id="subjectContainer" class="inputContainer">
+                <label for="subject">Subject:</label>
+                <label for="subject" id="subjectError" class="validationMessage"><i>Subject is required.</i></label>
+                <input type="text" id="subject" class="inputField">
+            </div>
+            <div id="messageContainer" class="inputContainer">
+                <label for="message">Message:</label>
+                <label for="message" id="messageError" class="validationMessage"><i>Message is required.</i></label>
+                <textarea id="message" class="inputField" rows="8" cols="50"></textarea>
+            </div>    
+            <button type="button" id="submit" class="pageButton" onclick="validateForm()">Submit</button>
+        </div>
+    </div>
+</div>
+
+<div id="bottomBlock">
+    <h1 id="bottomHeading" class="sectionHeading"><u>HEADING ONE</u></h1>
+
+    <div id="bottomBlockContent">
+        <p>Remove the duplicates in 2 Javascript objects and output the list of distinct 
+            names in an unordered list when this <a id="calculationScript" href="JavaScript:calculateArray()">link is clicked</a>, if the operation has been
+            completed already notify the user that this has already been done.
+    </p></div>
+</div>
+
+ <div id="bottomHeader">
+    <p>Thank you for considering me to be a part of the Midwestern Interactive team!</p>
+ </div>
+
+
+</body>
+
+</html>

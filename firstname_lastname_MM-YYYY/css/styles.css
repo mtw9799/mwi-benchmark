@@ -1,0 +1,106 @@
+.header{
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+#logo{
+    width: 500px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#headingOne{
+    padding-bottom: 20px;
+}
+.sectionHeading{
+    font-size: 50px;
+    color: black;
+}
+#topBlock{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: grey;
+}
+.placeholder{
+    height: 90px;
+    width: 300px;
+    background: lightgrey;
+}
+.testText{
+    width:300px;
+    overflow: visible;
+}
+.pageButton{
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+.buttonContainer{
+    padding-top:20px;
+}
+.item{
+    display: inline-block;
+    vertical-align: top;
+}
+.item + .item{
+    margin-left: 150px;
+}
+#middleBlock{
+    margin-top: 30px;
+    background: lightgray;
+}
+#middleHeader{
+    color: white;
+    padding-bottom: 20px;
+}
+.middleBlockContent, #middleHeader{
+    margin-left:auto;
+    margin-right: auto;
+    width:fit-content;
+}
+.middleBlockContent{
+    padding: 10px 0px 30px 0px;
+}
+.inputContainer{
+    width:fit-content;
+    padding-bottom: 20px;
+}
+.inputField{
+    display: grid;
+    width: 500px;
+    padding: 5px;
+    border: none;
+}
+.validationMessage{
+    float: right;
+    color: red;
+    font-size: small;
+    font-weight: 100;
+    display: none;
+}
+#message{
+    resize: none;
+}
+#submit{
+    padding: 7px 20px 7px 20px;
+}
+#bottomBlock{
+    width: 1208;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4%;
+}
+#calculationScript{
+    color: red;
+}
+#bottomHeader{
+    background: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
